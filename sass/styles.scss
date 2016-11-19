@@ -74,8 +74,10 @@ h2 {
   z-index: 1001;
 }
 header {
+  padding-bottom: 1em;
   img {
     display: block;
+    transition: width 0.5s;
   }
 }
 nav {
@@ -125,5 +127,16 @@ aside {
 article {
   img {
     float: right;
+  }
+}
+@media screen and (max-width: 480px) {
+  body {
+    background-size: 300px auto;
+    padding-bottom: 150px;
+  }
+  header {
+    img {
+      width: 130px;
+    }
   }
 }
