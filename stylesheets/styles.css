@@ -125,22 +125,23 @@ nav a {
   flex-direction: column;
   justify-content: center;
   color: #254596;
+  transition: background 0.25s, color 0.25s;
 }
-/* line 107, ../sass/styles.scss */
+/* line 108, ../sass/styles.scss */
 nav a:first-of-type {
   border-top: none;
 }
-/* line 110, ../sass/styles.scss */
+/* line 111, ../sass/styles.scss */
 nav a:hover {
   color: white;
   background: #254596;
 }
-/* line 115, ../sass/styles.scss */
+/* line 116, ../sass/styles.scss */
 nav.open {
   right: 0;
 }
 
-/* line 119, ../sass/styles.scss */
+/* line 120, ../sass/styles.scss */
 aside {
   display: flex;
   flex-direction: row;
@@ -151,24 +152,24 @@ aside {
   font-size: 0.9em;
 }
 
-/* line 129, ../sass/styles.scss */
+/* line 130, ../sass/styles.scss */
 article img {
   float: right;
 }
 
 @media screen and (max-width: 480px) {
-  /* line 134, ../sass/styles.scss */
+  /* line 135, ../sass/styles.scss */
   body {
     background-size: 350px auto;
     padding-bottom: 150px;
   }
 
-  /* line 139, ../sass/styles.scss */
+  /* line 140, ../sass/styles.scss */
   header img {
     width: 130px;
   }
 
-  /* line 143, ../sass/styles.scss */
+  /* line 144, ../sass/styles.scss */
   main {
     padding: 1em;
   }

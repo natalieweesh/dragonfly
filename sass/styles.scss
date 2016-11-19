@@ -104,6 +104,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     color: $blue;
+    transition: background 0.25s, color 0.25s;
     &:first-of-type {
       border-top: none;
     }
