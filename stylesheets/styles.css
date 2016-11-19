@@ -3,38 +3,43 @@ body {
   font-family: 'Karla', Arial, sans-serif;
   letter-spacing: 0.05em;
   line-height: 1.5em;
+  background-image: url(../img/ripple.png);
+  background-repeat: no-repeat;
+  background-size: 500px auto;
+  background-position: right bottom;
+  min-height: 100vh;
 }
-/* line 9, ../sass/styles.scss */
+/* line 14, ../sass/styles.scss */
 body.nav-open {
   width: 100%;
   height: 100%;
   position: fixed;
 }
 
-/* line 15, ../sass/styles.scss */
+/* line 20, ../sass/styles.scss */
 main {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 2em;
+  padding: 1em 2em;
 }
 
-/* line 20, ../sass/styles.scss */
+/* line 25, ../sass/styles.scss */
 h2, h3 {
   text-transform: uppercase;
 }
 
-/* line 23, ../sass/styles.scss */
+/* line 28, ../sass/styles.scss */
 h2 {
   text-align: center;
 }
 
-/* line 26, ../sass/styles.scss */
+/* line 31, ../sass/styles.scss */
 .main-text {
   max-width: 600px;
   margin: 0 auto;
 }
 
-/* line 30, ../sass/styles.scss */
+/* line 35, ../sass/styles.scss */
 #hamburger {
   position: absolute;
   top: 1em;
@@ -43,11 +48,11 @@ h2 {
   height: 30px;
   z-index: 1001;
 }
-/* line 37, ../sass/styles.scss */
+/* line 42, ../sass/styles.scss */
 #hamburger:hover {
   cursor: pointer;
 }
-/* line 40, ../sass/styles.scss */
+/* line 45, ../sass/styles.scss */
 #hamburger line {
   width: 25px;
   margin-left: 2.5px;
@@ -58,24 +63,24 @@ h2 {
   transition: transform 0.5s, opacity 0.25s;
   transform-origin: center;
 }
-/* line 51, ../sass/styles.scss */
+/* line 56, ../sass/styles.scss */
 #hamburger.open line {
   background: #ee1b25;
 }
-/* line 53, ../sass/styles.scss */
+/* line 58, ../sass/styles.scss */
 #hamburger.open line:nth-of-type(1) {
-  transform: rotate(42deg) translateY(10px);
+  transform: rotate(42deg) translateY(10px) translateX(1px);
 }
-/* line 56, ../sass/styles.scss */
+/* line 61, ../sass/styles.scss */
 #hamburger.open line:nth-of-type(2) {
   opacity: 0;
 }
-/* line 59, ../sass/styles.scss */
+/* line 64, ../sass/styles.scss */
 #hamburger.open line:nth-of-type(3) {
-  transform: rotate(-42deg) translateY(-10px);
+  transform: rotate(-42deg) translateY(-10px) translateX(1px);
 }
 
-/* line 65, ../sass/styles.scss */
+/* line 70, ../sass/styles.scss */
 #close-hamburger {
   position: absolute;
   top: 0;
@@ -83,12 +88,12 @@ h2 {
   z-index: 1001;
 }
 
-/* line 72, ../sass/styles.scss */
+/* line 77, ../sass/styles.scss */
 header img {
   display: block;
 }
 
-/* line 76, ../sass/styles.scss */
+/* line 81, ../sass/styles.scss */
 nav {
   width: 100%;
   height: 100%;
@@ -103,7 +108,7 @@ nav {
   right: 100%;
   transition: right 0.5s;
 }
-/* line 89, ../sass/styles.scss */
+/* line 94, ../sass/styles.scss */
 nav a {
   text-decoration: none;
   flex-grow: 1;
@@ -116,21 +121,21 @@ nav a {
   justify-content: center;
   color: #254596;
 }
-/* line 100, ../sass/styles.scss */
+/* line 105, ../sass/styles.scss */
 nav a:first-of-type {
   border-top: none;
 }
-/* line 103, ../sass/styles.scss */
+/* line 108, ../sass/styles.scss */
 nav a:hover {
   color: white;
   background: #254596;
 }
-/* line 108, ../sass/styles.scss */
+/* line 113, ../sass/styles.scss */
 nav.open {
   right: 0;
 }
 
-/* line 112, ../sass/styles.scss */
+/* line 117, ../sass/styles.scss */
 aside {
   display: flex;
   flex-direction: row;
@@ -140,7 +145,7 @@ aside {
   margin: 0 auto;
 }
 
-/* line 121, ../sass/styles.scss */
+/* line 126, ../sass/styles.scss */
 article img {
   float: right;
 }
