@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Dragonfly</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/styles.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <header>
+        <img src="img/dragonfly_logo.png" alt="Dragonfly" />
+        <a id="hamburger">X</a>
+      </header>
+      <section class="main-text">
+        <h2>Our Services</h2>
+        <h3>Strategy Under Uncertainty</h3>
+        <ul>
+          <li>Strategic Risk Assessment</li>
+          <li>Strategy Development &amp; Evaluation in a Volatile Environment</li>
+          <li>New Business/Product Introduction</li>
+          <li>New Market or Country / Political Risks</li>
+          <li>Risk-Based Pricing Models &amp; Strategies</li>
+        </ul>
+        <h3>Enterprise Risk Management</h3>
+        <ul>
+          <li>Risk Management Diagnostic</li>
+          <li>Risk Governance &amp; Policies</li>
+          <li>Custom ERM Development</li>
+          <li>Risk Quantification &amp; Metrics</li>
+          <li>Risk Dashboard &amp; Decision-Making</li>
+          <li>Risk Capital Allocation</li>
+          <li>RAROC / Risk-Adjusted Performance</li>
+        </ul>
+        <h3>Investment Analysis &amp; Modeling</h3>
+        <ul>
+          <li>Valuation &amp; Pricing Incorporating Probabilities</li>
+          <li>Investment Risk Review</li>
+          <li>Deal Structuring</li>
+          <li>M&amp;A Evaluation &amp; Structuring</li>
+          <li>M&amp;A Risk Review &amp; Alignment</li>
+          <li>Due Diligence / Identifying Conditions Precedents</li>
+        </ul>
+        <h3>Senior Management &amp; Board Level Advisory</h3>
+        <ul>
+          <li>Risk Culture, Organizational Readiness</li>
+          <li>Managing in Crisis, Anticipating Change/Shocks</li>
+          <li>Preparing &amp; Aligning your Board for Risk Mgmt</li>
+          <li>C-Level Risk Advisory (one-on-one)</li>
+        </ul>
+        <h3>Customized Risk Management Training / Education</h3>
+        <ul>
+          <li>Board of Directors, Risk &amp; Investment Committees</li>
+          <li>CEOs, Senior Executives &amp; Business Heads</li>
+          <li>Risk Mgrs, Asset Mgrs, Treasury &amp; Finance</li>
+          <li>As Adjunct Professors of Risk Management</li>
+        </ul>
+      </section>
+    </main>
+    <nav>
+      <span id="close-hamburger">X</span>
+      <a href="index.html">Home</a>
+      <a href="beginnings.html">Beginnings</a>
+      <a href="services.html">Our Services</a>
+      <a href="clients.html">Our Clients</a>
+      <a href="strengths.html">Our Strengths</a>
+      <a>Our Approach</a>
+      <a>On Risk Management</a>
+      <a>Publications</a>
+      <a>Founders</a>
+      <a>Contact Us</a>
+    </nav>
+    <script>
+      document.getElementById("hamburger").addEventListener("click", function() {
+        document.getElementsByTagName("nav")[0].classList.toggle("open");
+      });
+      document.getElementById("close-hamburger").addEventListener("click", function() {
+        document.getElementsByTagName("nav")[0].classList.toggle("open");
+      });
+    </script>
+  </body>
