@@ -148,22 +148,28 @@ aside {
   text-align: center;
   max-width: 600px;
   margin: 0 auto;
+  font-size: 0.9em;
 }
 
-/* line 128, ../sass/styles.scss */
+/* line 129, ../sass/styles.scss */
 article img {
   float: right;
 }
 
 @media screen and (max-width: 480px) {
-  /* line 133, ../sass/styles.scss */
+  /* line 134, ../sass/styles.scss */
   body {
-    background-size: 300px auto;
+    background-size: 350px auto;
     padding-bottom: 150px;
   }
 
-  /* line 138, ../sass/styles.scss */
+  /* line 139, ../sass/styles.scss */
   header img {
     width: 130px;
+  }
+
+  /* line 143, ../sass/styles.scss */
+  main {
+    padding: 1em;
   }
 }
