@@ -1,39 +1,39 @@
-/* line 1, ../sass/styles.scss */
+/* line 4, ../sass/styles.scss */
 body {
   font-family: 'Karla', Arial, sans-serif;
   letter-spacing: 0.05em;
   line-height: 1.5em;
 }
 
-/* line 6, ../sass/styles.scss */
+/* line 9, ../sass/styles.scss */
 main {
   max-width: 1000px;
   margin: 0 auto;
   padding: 2em;
 }
 
-/* line 11, ../sass/styles.scss */
+/* line 14, ../sass/styles.scss */
 h2, h3 {
   text-transform: uppercase;
 }
 
-/* line 14, ../sass/styles.scss */
+/* line 17, ../sass/styles.scss */
 h2 {
   text-align: center;
 }
 
-/* line 17, ../sass/styles.scss */
+/* line 20, ../sass/styles.scss */
 .main-text {
   max-width: 600px;
   margin: 0 auto;
 }
 
-/* line 21, ../sass/styles.scss */
+/* line 24, ../sass/styles.scss */
 #hamburger {
   float: right;
 }
 
-/* line 24, ../sass/styles.scss */
+/* line 27, ../sass/styles.scss */
 #close-hamburger {
   position: absolute;
   top: 0;
@@ -41,12 +41,12 @@ h2 {
   z-index: 1001;
 }
 
-/* line 31, ../sass/styles.scss */
+/* line 34, ../sass/styles.scss */
 header img {
   display: block;
 }
 
-/* line 35, ../sass/styles.scss */
+/* line 38, ../sass/styles.scss */
 nav {
   width: 100%;
   height: 100%;
@@ -61,32 +61,40 @@ nav {
   right: 100%;
   transition: right 0.5s;
 }
-/* line 48, ../sass/styles.scss */
+/* line 51, ../sass/styles.scss */
 nav a {
   text-decoration: none;
   flex-grow: 1;
   align-self: center;
   width: 100%;
-  border-top: 1px solid blue;
+  border-top: 1px solid #254596;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  color: #254596;
 }
-/* line 59, ../sass/styles.scss */
+/* line 62, ../sass/styles.scss */
+nav a:hover {
+  color: white;
+  background: #254596;
+}
+/* line 67, ../sass/styles.scss */
 nav.open {
   right: 0;
 }
 
-/* line 63, ../sass/styles.scss */
+/* line 71, ../sass/styles.scss */
 aside {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
-/* line 70, ../sass/styles.scss */
+/* line 80, ../sass/styles.scss */
 article img {
   float: right;
 }

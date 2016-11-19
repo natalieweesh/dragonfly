@@ -1,3 +1,6 @@
+$ripple-blue: #25246e;
+$blue: #254596;
+
 body {
   font-family: 'Karla', Arial, sans-serif;
   letter-spacing: 0.05em;
@@ -50,11 +53,16 @@ nav {
     flex-grow: 1;
     align-self: center;
     width: 100%;
-    border-top: 1px solid blue;
+    border-top: 1px solid $blue;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: $blue;
+    &:hover {
+      color: white;
+      background: $blue;
+    }
   }
   &.open {
     right: 0;
@@ -63,8 +71,10 @@ nav {
 aside {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
 }
 article {
   img {
