@@ -6,6 +6,11 @@ body {
   font-family: 'Karla', Arial, sans-serif;
   letter-spacing: 0.05em;
   line-height: 1.5em;
+  &.nav-open {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+  }
 }
 main {
   max-width: 1000px;
