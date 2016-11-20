@@ -206,11 +206,11 @@ a {
 
   /* line 173, ../sass/styles.scss */
   nav {
-    font-size: 1em;
+    font-size: 1.3em;
   }
 
   /* line 176, ../sass/styles.scss */
   h2 {
-    margin: 2em auto;
+    margin-bottom: 1em;
   }
 }
