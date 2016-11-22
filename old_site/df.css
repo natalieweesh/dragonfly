@@ -1,0 +1,27 @@
+.footer {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #CCCCCC;
+	
+}
+.bodytextbold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 14px;
+	font-weight: 200;
+	color: #00CC66;
+}
+.bodytext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 14px;
+	font-weight: 100;
+	color: #F0F0F0;
+}
+.Header1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 14px;
+	font-weight: 400;
+	color: #0099FF;
+}
