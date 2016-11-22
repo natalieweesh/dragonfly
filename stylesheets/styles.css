@@ -213,4 +213,9 @@ a {
   h2 {
     margin-bottom: 1em;
   }
+
+  /* line 179, ../sass/styles.scss */
+  article img {
+    float: none;
+  }
 }
