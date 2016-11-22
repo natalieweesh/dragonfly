@@ -35,6 +35,15 @@ h2 {
   max-width: 600px;
   margin: 0 auto;
 }
+.founders {
+  h3 {
+    margin-top: 0;
+  }
+  img {
+    float: left;
+    margin-right: 1em;
+  }
+}
 #hamburger {
   position: absolute;
   top: 1em;
@@ -153,6 +162,9 @@ article {
 }
 a {
   color: $blue;
+}
+.centered {
+  text-align: center;
 }
 @media screen and (max-width: 480px) {
   body {
